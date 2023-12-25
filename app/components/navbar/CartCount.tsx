@@ -1,5 +1,5 @@
 const CartCount = () => {
-  return <div>CartCount</div>;
+  return <div className="hidden md:flex">CartCount</div>;
 };
 
 export default CartCount;
