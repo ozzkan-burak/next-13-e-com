@@ -1,5 +1,5 @@
 const CartCount = () => {
-  return <div>CaardCount</div>;
+  return <div>CartCount</div>;
 };
 
 export default CartCount;
