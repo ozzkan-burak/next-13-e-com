@@ -1,5 +1,36 @@
-import Image from "next/image";
+import Category from "./components/home/Category";
 
 export default function Home() {
-  return <div>ana sayfa</div>;
+  const categoryData = [
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+    {
+      name: "Ayakkabı",
+    },
+  ];
+
+  return (
+    <div>
+      <Category data={categoryData} />
+    </div>
+  );
 }
