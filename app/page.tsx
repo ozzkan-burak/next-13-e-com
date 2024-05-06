@@ -1,4 +1,5 @@
 import { Banner, Category } from "./components";
+import Products from "./components/home/Products";
 
 export default function Home() {
   const categoryData = [
@@ -37,6 +38,7 @@ export default function Home() {
       </div>
       <div>
         <Banner />
+        <Products />
       </div>
     </>
   );
