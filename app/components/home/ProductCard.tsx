@@ -1,3 +1,4 @@
+import textClip from "@/utils/TextClip";
 import { Rating } from "@mui/material";
 import Image from "next/image";
 
@@ -8,7 +9,7 @@ const ProductCard = ({ product }: { product: any }) => {
         <Image src={product?.images[0]} fill alt="" className="object-cover" />
       </div>
       <div className="text-center mt-2 space-x-6">
-        <span>{product.title}</span>
+        <span>{textClip(product.title)}</span>
       </div>
       <Rating name="read-only" value={product.rating} readOnly />
       <div className="text-orange-600 text-lg md:text-xl">
