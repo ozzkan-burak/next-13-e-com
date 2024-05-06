@@ -36,7 +36,7 @@ export default function Home() {
           return <Category category={category.name} />;
         })}
       </div>
-      <div>
+      <div className="flex flex-col">
         <Banner />
         <Products />
       </div>
